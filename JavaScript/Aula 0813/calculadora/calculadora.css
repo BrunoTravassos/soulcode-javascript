@@ -1,0 +1,118 @@
+ * {
+     margin: 0;
+     padding: 0;
+ }
+
+ .fundo {
+     background-image: whitesmoke;
+     height: 100vh;
+     color: #fff;
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+ }
+
+ #calculadora {
+     position: absolute;
+     /* position:relative ; */
+     background-color: rgba(0, 0, 0, 0.8);
+     top: 50%;
+     left: 20%;
+     transform: translate(-50%, -50%);
+     border-radius: 15px;
+     padding: 15px;
+ }
+
+ #calculadora2 {
+     position: absolute;
+     /* position:relative ; */
+     background-color: rgba(0, 0, 0, 0.8);
+     top: 50%;
+     left: 70%;
+     transform: translate(-50%, -50%);
+     border-radius: 15px;
+     padding: 15px;
+ }
+
+ .botao {
+     width: 50px;
+     height: 50px;
+     font-size: 25px;
+     cursor: pointer;
+     margin: 3px;
+     background-color: rgb(31, 31, 31);
+     border: none;
+     color: #fff;
+ }
+
+ .botao2 {
+     width: 50px;
+     height: 50px;
+     font-size: 25px;
+     cursor: pointer;
+     margin: 3px 0 3px 12px;
+     background-color: rgb(31, 31, 31);
+     border: none;
+     color: #fff;
+ }
+
+ .botao:hover {
+     background-color: black;
+ }
+
+ .botao2:hover {
+     background-color: black;
+ }
+
+ #resultado {
+     background-color: white;
+     width: 207px;
+     height: 30px;
+     margin: 5px;
+     font-size: 25px;
+     color: black;
+     text-align: right;
+     padding: 5px;
+ }
+
+ #resultado2 {
+     background-color: white;
+     width: 293px;
+     height: 30px;
+     margin: 5px 0 5px 15px;
+     font-size: 25px;
+     color: black;
+     text-align: right;
+     padding: 5px;
+ }
+
+ .hide {
+     display: none;
+ }
+
+ #padrao {
+     background-color: rgb(25, 92, 92);
+     color: #FFFFFF;
+     font-size: 19px;
+     line-height: 16px;
+     padding: 9px;
+     border-radius: 6px;
+     font-family: Georgia, serif;
+     font-weight: normal;
+     box-shadow: rgb(0, 0, 0, 0.4) 5px 5px 15px 5px;
+     border: 2px solid rgb(28, 110, 164);
+     display: inline-block;
+ }
+
+ #cientifica {
+     background-color: rgb(25, 92, 92);
+     color: #FFFFFF;
+     font-size: 19px;
+     line-height: 16px;
+     padding: 9px;
+     border-radius: 6px;
+     font-family: Georgia, serif;
+     font-weight: normal;
+     box-shadow: rgb(0, 0, 0, 0.4) 5px 5px 15px 5px;
+     border: 2px solid rgb(28, 110, 164);
+     display: inline-block;
+ }

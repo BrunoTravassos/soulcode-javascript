@@ -1,0 +1,29 @@
+Soma array
+
+return ar.reduce((acc, current) => acc += current, 0 )
+
+comparar array
+
+const { A, B } = a.reduce((acc, cur) => {
+const { counter } = acc;
+if (a[counter] > b[counter]) {
+acc.A++;
+} else if (a[counter] < b[counter]) {
+acc.B++;
+}
+acc.counter++;
+return acc;
+}, { A: 0, B: 0, counter: 0 });
+return [A, B];
+
+outra solu
+
+let scoreBoard = [0, 0];
+  for (let i = 0; i < a.length; i++) {
+    if (a[i] > b[i]) {
+      scoreBoard[0]++;
+    } else if (a[i] < b[i]) {
+      scoreBoard[1]++;
+    }
+  }
+  return scoreBoard;

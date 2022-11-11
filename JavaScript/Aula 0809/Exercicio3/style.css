@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* image {
+    height: 90vh;
+    width: 50%;
+    margin-top: 50%;
+    margin-left: ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+.section-container {
+    height: 100vh;
+    width: 100%;
+    margin-top: 25%;
+    margin-left: 10%;
+    /* margin-left: 50px; */
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.margin {
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+.margin-text {
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.background-section-one {
+    /* background-image: url(2609.jpg); */
+    height: 30vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#dark {
+    /* background-image: url(Dm.png); */
+    /* background-size: cover; */
+    height: 10vh;
+    width: 10vw;
+    margin-top: -50%;
+    margin-right: 10px;
+    border-radius: 2%;
+}
+
+#light {
+    /* background-image: url(Dm.png); */
+    /* background-size: cover; */
+    height: 10vh;
+    width: 10vw;
+    margin-top: -50%;
+    margin-right: 150px;
+    border-radius: 2%;
+}
+
+.background-section-two {
+    width: 100vw;
+    height: 40vh;
+    margin-top: 30%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.form-control {
+    margin-top: 5px;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-footer {
+    background: black;
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    width: 100vw;
+    height: 75px;
+    padding: 25px;
+    color: wheat;
+}

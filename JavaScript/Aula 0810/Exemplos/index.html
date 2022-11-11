@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <h2 class="exemplo">AddEventListener()</h2>
+
+    <p class="exemplo">1Este exemplo usa o AddEventListener()</p>
+    <p class="exemplo">2Este exemplo usa o AddEventListener()</p>
+
+    <button onclick="myFunction()">Clique</button>
+
+
+    <!-- <script>
+        document.getElementById("myBtn").addEventListener("click",function(){
+            alert("Hello World!");
+        })
+    </script> -->
+    <!-- <script>
+        document.getElementById("myBtn").addEventListener("click", displayDate);
+
+        function displ
+
+    </script> -->
+
+    <script>
+        //pega todos os elementos
+        function myFunction(){
+            x = document.querySelectorAll(".exemplo");
+
+            for(i=0; i< x.length; i++){
+                x[i].style.backgroundColor="red";
+            }
+        }
+    </script>
+    
+</body>
+</html>
